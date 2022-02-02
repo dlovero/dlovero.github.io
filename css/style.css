@@ -706,6 +706,44 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: auto;
 }
 
+/* Pagos
+--------------------------------*/
+
+#pagos .pago-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#pagos .pago-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #fca1a1;
+}
+
+#pagos .pago-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#pagos .pago-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+@media (min-width: 768px) {
+  #pagos .medio-pago {
+    padding: 20px 0;
+  }
+}
+
+#pagos .pic img {
+  width: 5em;
+  margin-bottom: 20px;
+}
 /* Whatsapp floating button
 --------------------------------*/
 .float {
@@ -996,7 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 20%;
 }
 
 #team .member .details {
@@ -1075,6 +1113,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fca1a1;
 }
 
+#contact .contact-virtual,
 #contact .contact-address,
 #contact .contact-phone,
 #contact .contact-email {
@@ -1082,6 +1121,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+  #contact .contact-virtual,
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1090,8 +1130,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+  #contact .contact-virtual,
+  #contact .contact-address,
   #contact .contact-phone {
-    border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
 }
